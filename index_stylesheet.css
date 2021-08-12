@@ -1,0 +1,162 @@
+
+	@media screen and (max-width: 600px) {
+	
+	.topnav {
+	position: initial !important;
+	 
+	 }
+	
+  .topnav li {
+    float: none;
+    width: 100%;
+     }
+
+  .topnav a {
+  padding: 10px 10px;
+  font-size: 40%;
+  display: block;
+  }
+  
+  body {
+padding-top: 0px !important;
+}
+  
+  .parallax {
+  background-attachment: scroll;
+  background-size: 100% 100%;
+}
+
+.parallax-text { 
+  font-size: 80%;
+  margin: 10px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  }
+
+		
+.list { 
+		position: relative;
+		font-size: 70%;
+		padding-right: 10px;
+		padding-left: 10px;
+		}
+		
+ dd {font-size: 60%;
+	font-weight: normal;
+	padding-right: 10px;
+	padding-left: 10px;
+	}
+	
+	.text {
+	font-size: 80%;
+	letter-spacing: 1px;
+	line-height: 30px;
+	}
+  
+  }
+  
+	body {
+	background-color: white;
+	color: #363633;
+	font-family: "Proxima Nova", Verdana, Sans-Serif;
+	font-size: 100%;
+	letter-spacing: 1px;
+	line-height: 30px;
+	}
+
+span, dt, li {font-weight:bold;
+			 font-size: 110%;
+			}
+		
+.list { background-color: #118C78;
+		color: white;
+		position: absolute;
+		left: 0px;
+  		right: 0px;
+		width: 100%;
+		padding: 3%;
+		}
+		
+		
+dd {font-size: 100%;
+	font-weight: normal;}
+	
+		
+.parallax {
+  background: linear-gradient(rgba(60, 68, 105, 0.45),rgba(60, 68, 105, 0.45)), 
+  url("http://solace.ist.rit.edu/~zez9720/140/project2/assets/media/collection-newspapers.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-text { 
+  padding: 170px -0;
+  text-align: center;
+  font-size: 110%;
+  font-weight: bold;
+  font-family: Merriweather, Georgia, Serif;
+  margin: 10px;
+  color: white;
+  line-height: 40px;
+  letter-spacing: 3px;
+  }
+
+.topnav {
+  	width: 100%;
+    background: #4D5891;
+    border-right: none;
+    font-family: "Proxima Nova", Verdana, Sans-Serif;
+    padding: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+    }
+
+nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+	}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 16.6667%; 
+    width: calc(100% / 5);
+    box-sizing: border-box;
+	}
+
+nav ul li:first-child {
+   	 border-left: none;
+	}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #616161;
+    padding: 10px 0;
+	}
+
+.topnav a {
+  color: #F0F1FE;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 70%;
+  display: block;
+  }
+
+.topnav a:hover {
+  background-color: #30B0AE;
+  color: black;
+  }
+
+.topnav a.active {
+  background-color: #E4B63C;
+  color: black;
+  }
